@@ -41,7 +41,16 @@
         "description": "Salsa de tomate 100% organica",
         "price": 1500,
         "thumbnail": "https://res.cloudinary.com/dmicwl879/image/upload/v1684832398/proyecto%20js%20carrito/salsa-de-tomate-casera-des_wwoleo.jpg",
-        "code": "444",
+        "code": "555",
+        "stock": 5
+    },
+    {
+        "id": 6,
+        "title": "Sal",
+        "description": "Sal de mar 100% organica",
+        "price": 6500,
+        "thumbnail": "https://res.cloudinary.com/dmicwl879/image/upload/v1684832398/proyecto%20js%20carrito/salsa-de-tomate-casera-des_wwoleo.jpg",
+        "code": "666",
         "stock": 5
     }
 ]
