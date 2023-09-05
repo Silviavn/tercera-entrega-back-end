@@ -72,13 +72,8 @@ export default class ProductManager {
 
 
     }
-
-
 }
-
 const products = new ProductManager()
-
-//devuelve el array vacío, antes de agregar productos o los existentes
 products.getProducts()
     .then(res => console.log(res))
     .catch(err => console.log(err))
@@ -111,8 +106,6 @@ products.getProducts()
     }
 
 )
-
-
  products.addProducts(respto)
      .then(res => console.log(res))
      .catch(err => console.log(err))
@@ -121,8 +114,7 @@ products.getProductsById(5)
 .then(res => console.log(res))
 .catch(err => console.log(err))
 
- products.deleteProductsById()
-
+products.deleteProductsById()
 products.updateProducts({
     "id": 6,
     "title": "Sal",
