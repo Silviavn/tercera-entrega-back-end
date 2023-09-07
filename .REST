@@ -1,1 +1,5 @@
-//Por alguna extraña razòn nunca me funciono esto :(
+GET http://localhost:8080 ### GET http://localhost:8080/products ###
+
+GET http://localhost:8080/products ### GET http://localhost:8080/products/?limit=0
+
+### GET http://localhost:8080/products/
